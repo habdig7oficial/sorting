@@ -7,4 +7,5 @@
 	"license": "GPL-3.0-or-later",
 	"name": "sorting",
 	"targetType" : "dynamicLibrary"
+	
 }

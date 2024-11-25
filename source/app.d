@@ -1,6 +1,4 @@
 import std.stdio;
+import core.memory;
 
-void hello()
-{
-	writeln("Edit source/app.d to start your project.");
-}
+import bubble_sort;
