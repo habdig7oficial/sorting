@@ -1,0 +1,16 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/sorting
+sorting.so
+sorting.dylib
+sorting.dll
+sorting.a
+sorting.lib
+sorting-test-*
+*.exe
+*.pdb
+*.o
+*.obj
+*.lst
