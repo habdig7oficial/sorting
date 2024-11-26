@@ -1,5 +1,6 @@
 module bubble_sort;
 
+import std.stdio;
 import core.memory;
 
 extern (C) float * bubble_sort(float *ptr, int len){
@@ -15,6 +16,7 @@ extern (C) float * bubble_sort(float *ptr, int len){
                     arr[j] = arr[j + 1];
                     arr[j + 1] = aux;
                 }
+                writeln(arr);
         }
     }
     return arr.ptr;
